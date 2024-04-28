@@ -14,3 +14,8 @@ Warstwa dostępu do danych: Stwórz warstwę dostępu do danych, która będzie 
 4. Interfejs użytkownika:
 Stwórz interfejs użytkownika: Zaimplementuj interfejs użytkownika, który umożliwi klientom przeglądanie dostępnych pokoi, dokonywanie rezerwacji, przeglądanie historii rezerwacji, itp.
 Zadbaj o wygodę użytkowania: Upewnij się, że interfejs użytkownika jest intuicyjny i łatwy w obsłudze, aby użytkownicy mogli łatwo korzystać z systemu.
+
+
+// Przykłady
+
+- https://raw.githubusercontent.com/tssovi/grokking-the-object-oriented-design-interview/master/media-files/hms-class-diagram.png
