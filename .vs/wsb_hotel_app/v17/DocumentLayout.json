@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\plowi\\source\\repos\\wsb_hotel_app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{842EFFF0-B5F6-4E48-B2C1-8DE617013EE2}|wsb_hotel_app\\wsb_hotel_app.csproj|C:\\Users\\plowi\\source\\repos\\wsb_hotel_app\\wsb_hotel_app\\hoteldatabasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842EFFF0-B5F6-4E48-B2C1-8DE617013EE2}|wsb_hotel_app\\wsb_hotel_app.csproj|solutionrelative:wsb_hotel_app\\hoteldatabasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842EFFF0-B5F6-4E48-B2C1-8DE617013EE2}|wsb_hotel_app\\wsb_hotel_app.csproj|C:\\Users\\plowi\\source\\repos\\wsb_hotel_app\\wsb_hotel_app\\reservationsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{842EFFF0-B5F6-4E48-B2C1-8DE617013EE2}|wsb_hotel_app\\wsb_hotel_app.csproj|solutionrelative:wsb_hotel_app\\reservationsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842EFFF0-B5F6-4E48-B2C1-8DE617013EE2}|wsb_hotel_app\\wsb_hotel_app.csproj|C:\\Users\\plowi\\source\\repos\\wsb_hotel_app\\wsb_hotel_app\\reservationsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842EFFF0-B5F6-4E48-B2C1-8DE617013EE2}|wsb_hotel_app\\wsb_hotel_app.csproj|solutionrelative:wsb_hotel_app\\reservationsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1970039978:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:813837855:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HotelDatabaseManager.cs",
+              "DocumentMoniker": "C:\\Users\\plowi\\source\\repos\\wsb_hotel_app\\wsb_hotel_app\\HotelDatabaseManager.cs",
+              "RelativeDocumentMoniker": "wsb_hotel_app\\HotelDatabaseManager.cs",
+              "ToolTip": "C:\\Users\\plowi\\source\\repos\\wsb_hotel_app\\wsb_hotel_app\\HotelDatabaseManager.cs",
+              "RelativeToolTip": "wsb_hotel_app\\HotelDatabaseManager.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAiwAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:08:01.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\plowi\\source\\repos\\wsb_hotel_app\\wsb_hotel_app\\ReservationsForm.cs",
+              "RelativeDocumentMoniker": "wsb_hotel_app\\ReservationsForm.cs",
+              "ToolTip": "C:\\Users\\plowi\\source\\repos\\wsb_hotel_app\\wsb_hotel_app\\ReservationsForm.cs [Design]",
+              "RelativeToolTip": "wsb_hotel_app\\ReservationsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:38:59.335Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservationsForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\plowi\\source\\repos\\wsb_hotel_app\\wsb_hotel_app\\ReservationsForm.Designer.cs",
+              "RelativeDocumentMoniker": "wsb_hotel_app\\ReservationsForm.Designer.cs",
+              "ToolTip": "C:\\Users\\plowi\\source\\repos\\wsb_hotel_app\\wsb_hotel_app\\ReservationsForm.Designer.cs",
+              "RelativeToolTip": "wsb_hotel_app\\ReservationsForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:27:29.459Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
