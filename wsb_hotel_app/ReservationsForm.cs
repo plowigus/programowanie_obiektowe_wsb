@@ -42,7 +42,7 @@ namespace wsb_hotel_app
             reservationsListView.BackColor = Color.White;
             reservationsListView.ForeColor = Color.Black;
 
-            // Dodanie kolumn
+           
             reservationsListView.Columns.Add("Reservation ID", 100, HorizontalAlignment.Left);
             reservationsListView.Columns.Add("Room ID", 100, HorizontalAlignment.Left);
             reservationsListView.Columns.Add("Client ID", 100, HorizontalAlignment.Left);

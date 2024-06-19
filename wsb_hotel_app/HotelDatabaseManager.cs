@@ -238,6 +238,4 @@ namespace wsb_hotel_app
 
     }
 
-
-
 }

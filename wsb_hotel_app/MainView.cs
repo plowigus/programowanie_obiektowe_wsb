@@ -8,7 +8,7 @@ namespace wsb_hotel_app
 {
     public partial class MainViewForm : Form
     {
-        private Button employeesButton;
+        private PictureBox reservationImage;
         private Button reservationsButton;
         private Button addRoomButton;
         private Button addReservationButton;
@@ -22,23 +22,19 @@ namespace wsb_hotel_app
 
         private void InitializeComponents()
         {
-            
-            employeesButton = new Button();
-            employeesButton.Text = "Pracownicy";
-            employeesButton.Location = new Point(50, 50);
-            employeesButton.Size = new Size(200, 30);
-            employeesButton.Font = new Font("Arial", 12f);
-            employeesButton.Click += (sender, e) =>
-            {
-                Hide();
-                
-            };
 
+
+  
             reservationsButton = new Button();
             reservationsButton.Text = "Lista Rezerwacji";
             reservationsButton.Location = new Point(50, 100);
-            reservationsButton.Size = new Size(200, 30);
-            reservationsButton.Font = new Font("Arial", 12f);
+            reservationsButton.Size = new Size(300, 50);
+            reservationsButton.Font = new Font("Arial Black", 12f);
+            reservationsButton.FlatStyle = FlatStyle.Flat;
+            reservationsButton.FlatAppearance.BorderColor = Color.Black;
+            reservationsButton.FlatAppearance.BorderSize = 1;
+            reservationsButton.MouseEnter += (sender, e) => reservationsButton.BackColor = Color.LightSkyBlue;
+            reservationsButton.MouseLeave += (sender, e) => reservationsButton.BackColor = Color.White;
             reservationsButton.Click += (sender, e) =>
             {
                 Hide();
@@ -48,9 +44,14 @@ namespace wsb_hotel_app
 
             addRoomButton = new Button();
             addRoomButton.Text = "Dodaj Pokój";
-            addRoomButton.Location = new Point(50, 150);
-            addRoomButton.Size = new Size(200, 30);
-            addRoomButton.Font = new Font("Arial", 12f);
+            addRoomButton.Location = new Point(50, 180);
+            addRoomButton.Size = new Size(300, 50);          
+            addRoomButton.Font = new Font("Arial Black", 12f);
+            addRoomButton.FlatStyle = FlatStyle.Flat;
+            addRoomButton.FlatAppearance.BorderColor = Color.Black;
+            addRoomButton.FlatAppearance.BorderSize = 1;
+            addRoomButton.MouseEnter += (sender, e) => addRoomButton.BackColor = Color.LightSkyBlue;
+            addRoomButton.MouseLeave += (sender, e) => addRoomButton.BackColor = Color.White;
             addRoomButton.Click += (sender, e) =>
             {
                 Hide();
@@ -60,9 +61,14 @@ namespace wsb_hotel_app
 
             addReservationButton = new Button();
             addReservationButton.Text = "Dodaj Rezerwację";
-            addReservationButton.Location = new Point(50, 200);
-            addReservationButton.Size = new Size(200, 30);
-            addReservationButton.Font = new Font("Arial", 12f);
+            addReservationButton.Location = new Point(50, 260);
+            addReservationButton.Size = new Size(300, 50);
+            addReservationButton.Font = new Font("Arial Black", 12f);
+            addReservationButton.FlatStyle = FlatStyle.Flat;
+            addReservationButton.FlatAppearance.BorderColor = Color.Black;
+            addReservationButton.FlatAppearance.BorderSize = 1;
+            addReservationButton.MouseEnter += (sender, e) => addReservationButton.BackColor = Color.LightSkyBlue;
+            addReservationButton.MouseLeave += (sender, e) => addReservationButton.BackColor = Color.White;
             addReservationButton.Click += (sender, e) =>
             {
                 Hide();
@@ -71,10 +77,32 @@ namespace wsb_hotel_app
             };
 
             
-            Controls.Add(employeesButton);
+           
             Controls.Add(reservationsButton);
             Controls.Add(addRoomButton);
             Controls.Add(addReservationButton);
+
+
+            reservationImage = new PictureBox();
+            reservationImage.Location = new Point(450, 20);
+            reservationImage.Size = new Size(400, 550);
+            reservationImage.SizeMode = PictureBoxSizeMode.Zoom;
+            LoadImageFromUrl("https://img.freepik.com/free-vector/hotel-tower-concept-illustration_114360-17162.jpg?t=st=1717850210~exp=1717853810~hmac=94bea5e51b6cc7fba420d3942405c1aa327ca6d094c3737203517363bd253272&w=826"); // Ustaw URL obrazka
+
+            Controls.Add(reservationImage);
+        }
+
+
+        private void LoadImageFromUrl(string url)
+        {
+            using (WebClient webClient = new WebClient())
+            {
+                byte[] data = webClient.DownloadData(url);
+                using (MemoryStream mem = new MemoryStream(data))
+                {
+                    reservationImage.Image = Image.FromStream(mem);
+                }
+            }
         }
 
         private void ApplyCustomStyles()
