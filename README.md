@@ -13,3 +13,11 @@
     <li>Dodatkowe biblioteki: <b>EntityFramework, SQLite</b></li>
   </ul>
 
+<h3>Instrukcje instalacji</h3>
+
+<ul>
+  <li>Sklonuj repozytorium na swój lokalny komputer:<br>
+    <code>git clone https://github.com/plowigus/programowanie_obiektowe_wsb.git</code>
+  </li>
+</ul>
+
