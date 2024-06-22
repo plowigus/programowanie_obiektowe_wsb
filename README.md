@@ -35,7 +35,7 @@
 </ul>
 <br>
 <img src="https://github.com/plowigus/programowanie_obiektowe_wsb/blob/main/Zrzut%20ekranu%202024-06-22%20123128.png">
-<h3>Ekran rejestracji </h3><br>
-<p></p>
+<h2>Ekran rejestracji </h3><br>
+<p><code>RegisterForm</code> jest kluczowym elementem interfejsu użytkownika aplikacji hotelowej, umożliwiającym nowym użytkownikom rejestrację poprzez wprowadzenie podstawowych danych personalnych. Formularz jest odpowiednio stylizowany i integruje się z bazą danych aplikacji przez <code>DatabaseManager</code>, zapewniając bezpieczeństwo i integralność danych użytkowników.</p>
 
 
