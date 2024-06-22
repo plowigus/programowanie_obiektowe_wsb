@@ -16,8 +16,12 @@
 <h3>Instrukcje instalacji</h3>
 
 <ul>
-  <li>Sklonuj repozytorium na swój lokalny komputer:<br>
-    <code style="padding:5px">git clone https://github.com/plowigus/programowanie_obiektowe_wsb.git</code>
+  <li>Sklonuj repozytorium na swój lokalny komputer:
+    <code>git clone https://github.com/plowigus/programowanie_obiektowe_wsb.git</code>
   </li>
+  <li>Przejdź do katalogu "wsb_hotel_app":
+    <code>cd wsb_hotel_app</code>
+  </li>
+  <li>Uruchom aplikację</li>
 </ul>
 
