@@ -17,7 +17,7 @@
 
 <ul>
   <li>Sklonuj repozytorium na swój lokalny komputer:<br>
-    <code>git clone https://github.com/plowigus/programowanie_obiektowe_wsb.git</code>
+    <code style="padding:5px">git clone https://github.com/plowigus/programowanie_obiektowe_wsb.git</code>
   </li>
 </ul>
 
