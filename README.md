@@ -69,4 +69,21 @@
 <img src="https://github.com/plowigus/programowanie_obiektowe_wsb/blob/main/Zrzut%20ekranu%202024-06-23%20113721.png">
 <h2>Ekran główny aplikacji </h3><br>
 <p>Klasa <code>MainViewForm</code> jest głównym formularzem aplikacji hotelowej. Formularz ten zawiera przyciski do zarządzania rezerwacjami oraz dodawania nowych pokoi i rezerwacji. Dodatkowo formularz wyświetla obrazek związany z hotelem. Klasa <code>MainViewForm</code> zawiera trzy przyciski umożliwiające zarządzanie rezerwacjami oraz dodawanie nowych pokoi i rezerwacji. Ponadto wyświetla obraz związany z hotelem. Wszystkie komponenty są starannie rozmieszczone i stylizowane, aby zapewnić spójny wygląd i działanie aplikacji.</p>
+<br>
+<br>
 
+<img src="https://github.com/plowigus/programowanie_obiektowe_wsb/blob/main/Zrzut%20ekranu%202024-06-22%20123118.png">
+<h2>Ekran dodawania pokoju</h3><br>
+<p>Klasa <code>AddRoomForm</code> jest formularzem służącym do dodawania nowych pokoi do bazy danych aplikacji hotelowej. Umożliwia użytkownikowi wprowadzenie numeru pokoju, typu pokoju oraz ceny za noc. Formularz zawiera także opcję powrotu do głównego widoku oraz wyświetla obrazek.</p>
+<h2>Metody <code>AddRoomForm</code></h2>
+<ul>
+  <h3>Metoda <code>addButton_Click(object sender, EventArgs e)</code></code></h3>
+  <li>Sprawdzenie, czy pola <code>roomNumberTextBox</code>, <code>roomTypeComboBox</code> i <code>pricePerNightTextBox</code> są puste. Jeśli tak, wyświetlenie komunikatu o błędzie.</li>
+  <li>Walidacja numeru pokoju. Musi być dodatnią liczbą całkowitą.</li>
+  <li>Walidacja ceny za noc. Musi być dodatnią liczbą.</li>
+  <li>Pobranie wartości z pól tekstowych.</li>
+  <li>Dodanie nowego pokoju do bazy danych za pomocą metody <code>databaseManager.AddRoom(roomNumber, roomType, pricePerNight, isAvailable)</code>.</li>
+  <li>Wyświetlenie komunikatu o sukcesie.</li>  
+</ul>
+<br>
+<br>
