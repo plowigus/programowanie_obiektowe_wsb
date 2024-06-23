@@ -42,7 +42,16 @@
   <h3>Metoda <code>registerButton_Click(object sender, EventArgs e)</code></h3>
   <li>Obsługuje zdarzenie kliknięcia przycisku `registerButton` </li>
   <li>Przeprowadza walidację wprowadzonych danych przez użytkownika.</li>
-  <li>Tworzy nowego użytkownika w bazie danych przy użyciu <code>databaseManager.AddUser(firstName, lastName, email, password)</code>.</li>
-  
+  <li>Tworzy nowego użytkownika w bazie danych przy użyciu <code>databaseManager.AddUser(firstName, lastName, email, password)</code>.</li>  
 </ul>
 
+
+<h2>Ekran główny aplikacji </h3><br>
+<p><code>RegisterForm</code> jest kluczowym elementem interfejsu użytkownika aplikacji hotelowej, umożliwiającym nowym użytkownikom rejestrację poprzez wprowadzenie podstawowych danych personalnych. Formularz jest odpowiednio stylizowany i integruje się z bazą danych aplikacji przez <code>DatabaseManager</code>, zapewniając bezpieczeństwo i integralność danych użytkowników.</p>
+<h2>Metody <code>RegisterForm</code></h2>
+<ul>
+  <h3>Metoda <code>registerButton_Click(object sender, EventArgs e)</code></h3>
+  <li>Obsługuje zdarzenie kliknięcia przycisku `registerButton` </li>
+  <li>Przeprowadza walidację wprowadzonych danych przez użytkownika.</li>
+  <li>Tworzy nowego użytkownika w bazie danych przy użyciu <code>databaseManager.AddUser(firstName, lastName, email, password)</code>.</li>  
+</ul>
