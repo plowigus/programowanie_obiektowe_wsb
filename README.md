@@ -120,5 +120,17 @@
 
 
 
-
+<img src="https://github.com/plowigus/programowanie_obiektowe_wsb/blob/main/Zrzut%20ekranu%202024-06-23%20113801.png">
+<h2>Ekran wszystkich rezerwacji</h3><br>
+<p>Klasa <code>ReservationsForm</code> wyświetla wszystkie rezerwację z bazy danych</p>
+<h2>Metody <code>ReservationsForm</code></h2>
+<ul>
+  <h3>Metoda <code>LoadReservationsData</code></code></h3>
+  <li>Pobiera listę rezerwacji z bazy danych za pomocą <code>databaseManager</code>. Dla każdej rezerwacji tworzy obiekt ListViewItem i dodaje odpowiednie dane do jego "SubItems". Następnie dodaje te elementy do <code>reservationsListView.</code></li>
+  <li>Walidacja numeru pokoju. Musi być dodatnią liczbą całkowitą.</li>
+  <li>Walidacja ceny za noc. Musi być dodatnią liczbą.</li>
+  <li>Pobranie wartości z pól tekstowych.</li>
+  <li>Dodanie nowego pokoju do bazy danych za pomocą metody <code>databaseManager.AddRoom(roomNumber, roomType, pricePerNight, isAvailable)</code>.</li>
+  <li>Wyświetlenie komunikatu o sukcesie.</li>  
+</ul>
 
