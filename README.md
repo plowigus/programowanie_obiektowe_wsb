@@ -72,7 +72,7 @@
 <br>
 <br>
 
-<img src="https://github.com/plowigus/programowanie_obiektowe_wsb/blob/main/Zrzut%20ekranu%202024-06-22%20123118.png">
+<img src="https://github.com/plowigus/programowanie_obiektowe_wsb/blob/main/Zrzut%20ekranu%202024-06-23%20113746.png">
 <h2>Ekran dodawania pokoju</h3><br>
 <p>Klasa <code>AddRoomForm</code> jest formularzem służącym do dodawania nowych pokoi do bazy danych aplikacji hotelowej. Umożliwia użytkownikowi wprowadzenie numeru pokoju, typu pokoju oraz ceny za noc. Formularz zawiera także opcję powrotu do głównego widoku oraz wyświetla obrazek.</p>
 <h2>Metody <code>AddRoomForm</code></h2>
@@ -87,3 +87,8 @@
 </ul>
 <br>
 <br>
+
+
+
+
+
