@@ -49,6 +49,23 @@
 <br>
 <br>
 
+<img src="https://github.com/plowigus/programowanie_obiektowe_wsb/blob/main/Zrzut%20ekranu%202024-06-22%20123118.png">
+<h2>Ekran logowania </h3><br>
+<p>Klasa <code>LoginForm</code> jest formularzem logowania dla aplikacji hotelowej. Umożliwia użytkownikowi wprowadzenie adresu e-mail oraz hasła, a następnie weryfikację danych w bazie danych. Formularz zawiera także opcję przejścia do rejestracji oraz wyświetla obrazek.</p>
+<h2>Metody <code>LoginForm</code></h2>
+<ul>
+  <h3>Metoda <code>loginButton_Click(object sender, EventArgs e)</code></code></h3>
+  <li>Metoda obsługująca kliknięcie przycisku logowania. Sprawdza, czy pola tekstowe nie są puste, a następnie weryfikuje dane logowania w bazie danych. </li>
+  <li>Sprawdzenie, czy pola <code>emailTextBox</code> i <code>passwordTextBox</code> są puste. Jeśli tak, wyświetlenie komunikatu o błędzie.</li>
+  <li>Pobranie wartości z pól tekstowych.</li>
+  <li>Weryfikacja użytkownika za pomocą metody <code>databaseManager.AuthenticateUser(email, password).</code></li>
+  <li>Jeśli weryfikacja się powiedzie, wyświetlenie komunikatu o sukcesie, ukrycie bieżącego formularza i wyświetlenie <code>MainViewForm</code>.</li>
+  <li>Jeśli weryfikacja się nie powiedzie, wyświetlenie komunikatu o błędzie logowania.</li>  
+</ul>
+<br>
+<br>
+
+
 <img src="https://github.com/plowigus/programowanie_obiektowe_wsb/blob/main/Zrzut%20ekranu%202024-06-23%20113721.png">
 <h2>Ekran główny aplikacji </h3><br>
 <p>Klasa <code>MainViewForm</code> jest głównym formularzem aplikacji hotelowej. Formularz ten zawiera przyciski do zarządzania rezerwacjami oraz dodawania nowych pokoi i rezerwacji. Dodatkowo formularz wyświetla obrazek związany z hotelem. Klasa <code>MainViewForm</code> zawiera trzy przyciski umożliwiające zarządzanie rezerwacjami oraz dodawanie nowych pokoi i rezerwacji. Ponadto wyświetla obraz związany z hotelem. Wszystkie komponenty są starannie rozmieszczone i stylizowane, aby zapewnić spójny wygląd i działanie aplikacji.</p>
