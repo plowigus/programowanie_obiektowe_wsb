@@ -88,6 +88,36 @@
 <br>
 <br>
 
+<img src="https://github.com/plowigus/programowanie_obiektowe_wsb/blob/main/Zrzut%20ekranu%202024-06-23%20113810.png">
+<h2>Ekran dodawania rezerwacji</h3><br>
+<p>Klasa <code>AddReservationForm</code> jest formularzem służącym do dodawania nowych rezerwacji w aplikacji hotelowej. Umożliwia użytkownikowi wprowadzenie imienia, nazwiska, numeru pokoju oraz daty przyjazdu i odjazdu. Formularz zawiera także opcję powrotu do głównego widoku oraz wyświetla obrazek.</p>
+<h2>Metody <code>AddReservationForm</code></h2>
+<ul>
+  <h3>Metoda <code>addButton_Click(object sender, EventArgs e)</code></code></h3>
+  <li>Sprawdzenie, czy pola <code>firstNameTextBox</code>, <code>lastNameTextBox</code> i <code>roomNumberComboBox</code> są puste. Jeśli tak, wyświetlenie komunikatu o błędzie.</li>
+  <li>Walidacja daty przyjazdu i odjazdu. Jeśli format daty jest nieprawidłowy, wyświetlenie komunikatu o błędzie.</li>
+  <li>Walidacja numeru pokoju. Jeśli format numeru jest nieprawidłowy, wyświetlenie komunikatu o błędzie.</li>
+  <li>Pobranie wartości z pól tekstowych.</li>
+  <li>Sprawdzenie dostępności pokoju w podanym okresie za pomocą metody <code>IsRoomAvailable</code>.</li>
+  <li>Jeśli pokój jest dostępny, dodanie nowej rezerwacji do bazy danych za pomocą metody <code>databaseManager.AddReservation</code>.</li>  
+  <li>Wyświetlenie komunikatu o sukcesie.</li>
+</ul>
+<br>
+
+<ul>
+  <h3>Metoda <code>IsRoomAvailable(int roomId, DateTime startDate, DateTime endDate, out string errorMessage)</code></code></h3>
+  <li>Metoda sprawdzająca, czy pokój jest dostępny w podanym okresie.</li>
+  <li>Ustawienie pustego komunikatu o błędzie.</li>
+  <li>Utworzenie połączenia z bazą danych.</li>
+  <li>Wykonanie zapytania SQL sprawdzającego, czy pokój jest zarezerwowany w podanym okresie.</li>
+  <li>Jeśli wynik zapytania jest większy niż 0, ustawienie komunikatu o błędzie i zwrócenie `false`. W przeciwnym razie zwrócenie `true`.</li>
+  <li>Jeśli pokój jest dostępny, dodanie nowej rezerwacji do bazy danych za pomocą metody <code>databaseManager.AddReservation</code>.</li>  
+  <li>Wyświetlenie komunikatu o sukcesie.</li>
+</ul>
+
+<br>
+<br>
+
 
 
 
