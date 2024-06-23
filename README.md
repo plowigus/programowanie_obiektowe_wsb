@@ -34,6 +34,8 @@
   <li><b>ApplyCustomStyles()</b>: Stosuje niestandardowe style do formularza, takie jak tło i czcionka.</li>
 </ul>
 <br>
+
+
 <img src="https://github.com/plowigus/programowanie_obiektowe_wsb/blob/main/Zrzut%20ekranu%202024-06-22%20123128.png">
 <h2>Ekran rejestracji </h3><br>
 <p><code>RegisterForm</code> jest kluczowym elementem interfejsu użytkownika aplikacji hotelowej, umożliwiającym nowym użytkownikom rejestrację poprzez wprowadzenie podstawowych danych personalnych. Formularz jest odpowiednio stylizowany i integruje się z bazą danych aplikacji przez <code>DatabaseManager</code>, zapewniając bezpieczeństwo i integralność danych użytkowników.</p>
@@ -44,14 +46,10 @@
   <li>Przeprowadza walidację wprowadzonych danych przez użytkownika.</li>
   <li>Tworzy nowego użytkownika w bazie danych przy użyciu <code>databaseManager.AddUser(firstName, lastName, email, password)</code>.</li>  
 </ul>
+<br>
+<br>
 
-
+<img src="https://github.com/plowigus/programowanie_obiektowe_wsb/blob/main/Zrzut%20ekranu%202024-06-23%20113721.png">
 <h2>Ekran główny aplikacji </h3><br>
-<p><code>RegisterForm</code> jest kluczowym elementem interfejsu użytkownika aplikacji hotelowej, umożliwiającym nowym użytkownikom rejestrację poprzez wprowadzenie podstawowych danych personalnych. Formularz jest odpowiednio stylizowany i integruje się z bazą danych aplikacji przez <code>DatabaseManager</code>, zapewniając bezpieczeństwo i integralność danych użytkowników.</p>
-<h2>Metody <code>RegisterForm</code></h2>
-<ul>
-  <h3>Metoda <code>registerButton_Click(object sender, EventArgs e)</code></h3>
-  <li>Obsługuje zdarzenie kliknięcia przycisku `registerButton` </li>
-  <li>Przeprowadza walidację wprowadzonych danych przez użytkownika.</li>
-  <li>Tworzy nowego użytkownika w bazie danych przy użyciu <code>databaseManager.AddUser(firstName, lastName, email, password)</code>.</li>  
-</ul>
+<p>Klasa <code>MainViewForm</code> jest głównym formularzem aplikacji hotelowej. Formularz ten zawiera przyciski do zarządzania rezerwacjami oraz dodawania nowych pokoi i rezerwacji. Dodatkowo formularz wyświetla obrazek związany z hotelem. Klasa <code>MainViewForm</code> zawiera trzy przyciski umożliwiające zarządzanie rezerwacjami oraz dodawanie nowych pokoi i rezerwacji. Ponadto wyświetla obraz związany z hotelem. Wszystkie komponenty są starannie rozmieszczone i stylizowane, aby zapewnić spójny wygląd i działanie aplikacji.</p>
+
